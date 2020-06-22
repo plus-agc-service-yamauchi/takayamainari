@@ -1,0 +1,553 @@
+<?php require('news/wp-load.php'); ?>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>高山稲荷神社</title>
+    <meta name="keywords" content="千本鳥居,高山,稲荷,神社,高山稲荷,高山稲荷神社,青森県,つがる市">
+    <meta name="description" content="【公式】高山稲荷神社 - 鎌倉・室町悠久の時を超えて。五穀豊穣、海上安全、商売繁盛の神様として青森県つがる市の霊験あらたかな神社です。">
+    <meta name="author" content="高山稲荷神社">
+    <link rel="canonical" href="https://takayamainari.jp/">
+    <!-- OGP -->
+    <meta property="og:site_name" content="高山稲荷神社">
+    <meta property="og:title" content="高山稲荷神社 鎌倉・室町悠久の時を超えて">
+    <meta property="og:description" content="【公式】高山稲荷神社 - 鎌倉・室町悠久の時を超えて。五穀豊穣、海上安全、商売繁盛の神様として青森県つがる市の霊験あらたかな神社です。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://takayamainari.jp/img/logo.png">
+    <meta property="og:image" content="https://takayamainari.jp/img/logo.png">
+    <meta property="fb:app_id" content="2530603256985276" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://takayamainari.jp/">
+    <meta name="twitter:image" content="https://takayamainari.jp/img/logo.png">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- web clip -->
+    <link rel="apple-touch-icon" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://takayamainari.jp/img/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://takayamainari.jp/img/logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <style type="text/css">
+        html,
+        body,
+        header,
+        .carousel {
+            height: 100%;
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331 !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading-Bar"></div>
+    <img class="loading-Img" src="img/logo_s.png" alt="ロゴ" style="display:none;">
+    <!-- Navbar -->
+    <div class="nav">
+        <div class="nav__wrapper bg-white">
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-md-2 d-flex flex-column align-items-center justify-content-center bars menu p-0"
+                        style="height:100vh;">
+                        <ul>
+                            <li><a href="index.php">トップページ</a></li>
+                            <li><a href="map.html">境内案内図</a></li>
+                            <li><a href="howto-pray.html">参拝・御祈祷</a></li>
+                            <li><a href="news">お知らせ</a></li>
+                            <li><a href="access.html">神社までのご案内</a></li>
+                            <li><a href="policy.html">サイトのご利用について</a></li>
+                            <li><a href="sitemap.html">当サイトについて</a></li>
+                            <li><a href="contact.html">お問い合わせ</a></li>
+                            <li><a href="faq.html">よくあるご質問</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-10 p-0" style="height:100vh;">
+                        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="view">
+                                        <video class="video-intro" autoplay loop muted>
+                                            <source src="video/Reiwa-Takayamainari.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="mask pattern-3 d-flex justify-content-center align-items-center">
+                                            <div class="text-center white-text mx-5 wow fadeIn">
+                                                <h1 class="mb-4">
+                                                    <strong><img src="img/logo.png" alt="" width="300"></strong>
+                                                </h1>
+                                                <p>Official SNS</p>
+                                                <ul
+                                                    class="list-inline d-flex justify-content-center align-items-center">
+                                                    <li class="list-inline-item"><a
+                                                            href="https://www.facebook.com/takayamainari/"><i
+                                                                class="fab fa-facebook-square fa-2x text-white"></i></a>
+                                                    </li>
+                                                    <li class="list-inline-item"><a
+                                                            href="https://www.instagram.com/takayamainari/"><i
+                                                                class="fab fa-instagram fa-2x text-white"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <!-- Header -->
+    <!-- Full Page Intro -->
+  <div class="view">
+
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
+      muted loop>
+      <source src="video/Reiwa-Takayamainari-TITL.mp4" type="video/mp4">
+    </video>
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <!-- <div class="text-center white-text mx-5 wow fadeIn"> -->
+
+        <!-- <h1 class="display-4 mb-4">
+          <strong><img src="img/mon.png" alt="社紋" width="50" class="mx-auto"></strong>
+        </h1> -->
+
+        <!-- Time Counter -->
+        <!-- <p id="time-counter" class="border border-light my-4"></p> -->
+
+
+        <!-- <h4 class="mb-4">
+          <strong>鎌倉・室町悠久の時を超えて</strong>
+        </h4> -->
+
+        <!-- <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+          free tutorial
+          <i class="fas fa-graduation-cap ml-2"></i>
+        </a> -->
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+    <!-- <div id="header" class="contents">
+        <div class="inner" role="listbox">
+            <div class="item active">
+                <div class="view">
+                    <video class="video-intro" autoplay loop muted>
+                        <source src="video/Reiwa-Takayamainari-TITL.mp4" type="video/mp4">
+                    </video>
+                    <div class="mask d-flex justify-content-center align-items-center">
+                        <div class="text-center white-text mx-5 wow fadeIn text-dark">
+                            <p><img src="img/mon.png" alt="社紋" width="50" class="mx-auto"></p>
+                            <p>鎌倉・室町悠久の時を超えて</p>
+                            <h1 class="mb-4">
+                                <strong><img src="img/logo_b.png" alt="ロゴ" width="300"></strong>
+                            </h1>
+                            <p>Takayamainari-jinja Shrine</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Header -->
+    <!--Main layout-->
+    <main class="contents">
+        <section id="history" class="py-5 my-5">
+            <div class="container">
+                <div class="row d-flex flex-column justify-content-center align-items-center wow fadeIn">
+                    <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
+                    <p class="vertical mb-3 h5 letter-space">御由緒</p>
+                    <span><img src="img/line.gif" alt="line" class="mb-3"></span>
+                </div>
+                <div class="container">
+                    <p class="pb-5" style="line-height:1.8em;">
+                        　当社の御創建の年代は詳らかではないが、鎌倉から室町にかけて此のあたりを統治していた豪族安藤氏の創建と伝えられる。<br>
+                        　江戸時代の古地図には、高山の地は三王（山王）坊山と記されており、当社の境内社である三王神社御創建の社伝には、山王坊日吉神社を中心に十三宗寺建ち並ぶ一大霊場があり、安藤氏の祈願所として栄えるも一四四三年（嘉吉三）［または、一四三二年（永享四）］頃に南部勢の焼き討ちにより焼失。この時、山王大神様が黄金の光を放って流れ星のように高山の聖地に降り鎮まれた、と伝えられる。<br>
+                        　稲荷神社創建の社伝には、江戸時代の元禄十四年（一七〇一年）播磨子に赤穂藩主浅野内匠頭長矩の江戸城中での刃傷事件による藩取り潰しの際、赤穂城内に祀っていた稲荷大神の御霊代を藩士の寺坂三五郎が奉戴し、流浪の果て津軽の弘前城下に萬し、その後鯵ヶ沢に移り住み「赤穂屋」と号し醸造業を営み栄える。その子孫がお島に移住するにあたり、この高山の霊地に祀れとのお告げにより遷し祀った、と伝えられる。<br>
+                        　これらを総合して考えると、元々は三王神社が祀られ、その後江戸時代に稲荷神社が創建され、江戸時代の稲荷信仰の隆盛とともに稲荷神社が繁栄し、元々の山王神社が後退したものと考えられる。
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 hov">
+                            <a href="gosaishin.html" class="d-block box h5 text-center">
+                                御祭神
+                            </a>
+                        </div>
+                        <div class="col-md-6 hov">
+                            <a href="goshintoku.html" class="d-block box h5 text-center">
+                                御神徳
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="jarallax section-parallax h-100 d-flex justify-content-center align-items-center"
+            style="background-image:url('img/map.jpg');background-size:cover;">
+            <div class="glass p-3 rounded">
+                <div class="glass px-5 py-3 rounded h1 m-0">
+                    <a href="map.html">境内案内図</a>
+                </div>
+            </div>
+        </div>
+        <section id="news" class="py-5" style="background:#F6F6F6;">
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <?php
+                            $posts = get_posts('numberposts=5');
+                            global $post;
+                            ?>
+                    <?php
+                            if ($posts): foreach ($posts as $post): setup_postdata($post); ?>
+                    <div class="mb-3 h5">
+                        <table class="table table-borderless">
+                            <tr>
+                                <td><?php the_time('Y/m/d'); ?>
+                                </td>
+                                <td><a
+                                        href="<?php the_permalink();?>">
+                                        <?php the_title(); ?>
+                                    </a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <?php endforeach; endif;
+                            ?>
+                </div>
+            </div>
+        </section>
+        <section id="festival">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 pt-5 px-5">
+                        <div class="d-flex flex-column justify-content-center align-items-center wow fadeIn">
+                            <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
+                            <p class="vertical mb-3 h5 letter-space">主な祭事</p>
+                            <span><img src="img/line.gif" alt="line" class="mb-3"></span>
+                        </div>
+                        <span class="d-none d-lg-block">
+                            <ul class="mt-3 list-unstyled d-flex justify-content-between align-items-start">
+                                <li class="vertical mx-2">
+                                    年越の大祓式
+                                </li>
+                                <li class="vertical">
+                                    天長祭
+                                </li>
+                                <li class="vertical">
+                                    新嘗祭
+                                </li>
+                                <li class="vertical">
+                                    例大祭
+                                </li>
+                                <li class="vertical">
+                                    鎮魂祭
+                                </li>
+                                <li class="vertical">
+                                    夏季大祭
+                                </li>
+                                <li class="vertical">
+                                    夏越しの大祓式
+                                </li>
+                                <li class="vertical">
+                                    交通安全祈願祭
+                                </li>
+                                <li class="vertical">
+                                    昭和祭
+                                </li>
+                                <li class="vertical">
+                                    春季大祭
+                                </li>
+                                <li class="vertical">
+                                    紀元際
+                                </li>
+                                <li class="vertical">
+                                    初午祭
+                                </li>
+                                <li class="vertical">
+                                    節分祭
+                                </li>
+                                <li class="vertical">
+                                    元始祭
+                                </li>
+                                <li class="vertical">
+                                    歳旦祭
+                                </li>
+                            </ul>
+                            <ul class="mt-5 list-unstyled d-flex justify-content-between align-items-start">
+                                <li class="vertical">
+                                    十二月三十日
+                                </li>
+                                <li class="vertical">
+                                    十二月二十三日
+                                </li>
+                                <li class="vertical">
+                                    十一月二十三日
+                                </li>
+                                <li class="vertical">
+                                    九月二十五日
+                                </li>
+                                <li class="vertical">
+                                    八月十日
+                                </li>
+                                <li class="vertical">
+                                    旧暦六月十日
+                                </li>
+                                <li class="vertical">
+                                    六月三十日
+                                </li>
+                                <li class="vertical">
+                                    六月の日曜日
+                                </li>
+                                <li class="vertical">
+                                    四月二十九日
+                                </li>
+                                <li class="vertical">
+                                    旧暦三月十日
+                                </li>
+                                <li class="vertical">
+                                    二月十一日
+                                </li>
+                                <li class="vertical">
+                                    （二月最初の午の日）
+                                </li>
+                                <li class="vertical">
+                                    二月（立春前日）
+                                </li>
+                                <li class="vertical">
+                                    一月三日
+                                </li>
+                                <li class="vertical">
+                                    一月一日
+                                </li>
+                            </ul>
+                        </span>
+                        <span class="d-block d-lg-none">
+                            <ul class="p-0 list-unstyled mt-5 d-flex justify-content-between align-items-start">
+                                <li class="vertical">
+                                    交通安全祈願祭
+                                </li>
+                                <li class="vertical">
+                                    昭和祭
+                                </li>
+                                <li class="vertical">
+                                    春季大祭
+                                </li>
+                                <li class="vertical">
+                                    紀元際
+                                </li>
+                                <li class="vertical">
+                                    初午祭
+                                </li>
+                                <li class="vertical">
+                                    節分祭
+                                </li>
+                                <li class="vertical">
+                                    元始祭
+                                </li>
+                                <li class="vertical">
+                                    歳旦祭
+                                </li>
+                            </ul>
+                            <ul class="p-0 list-unstyled mt-2 d-flex justify-content-between align-items-start">
+                                <li class="vertical">
+                                    六月の日曜日
+                                </li>
+                                <li class="vertical">
+                                    四月二十九日
+                                </li>
+                                <li class="vertical">
+                                    旧暦三月十日
+                                </li>
+                                <li class="vertical">
+                                    二月十一日
+                                </li>
+                                <li class="vertical">
+                                    （二月最初の午の日）
+                                </li>
+                                <li class="vertical">
+                                    二月（立春前日）
+                                </li>
+                                <li class="vertical">
+                                    一月三日
+                                </li>
+                                <li class="vertical">
+                                    一月一日
+                                </li>
+                            </ul>
+                            <ul class="p-0 list-unstyled mt-5 pt-5 d-flex justify-content-between align-items-start">
+                                <li class="vertical">
+                                    年越の大祓式
+                                </li>
+                                <li class="vertical">
+                                    天長祭
+                                </li>
+                                <li class="vertical">
+                                    新嘗祭
+                                </li>
+                                <li class="vertical">
+                                    例大祭
+                                </li>
+                                <li class="vertical">
+                                    鎮魂祭
+                                </li>
+                                <li class="vertical">
+                                    夏季大祭
+                                </li>
+                                <li class="vertical">
+                                    夏越しの大祓式
+                                </li>
+                            </ul>
+                            <ul class="p-0 list-unstyled mt-2 d-flex justify-content-between align-items-start">
+                                <li class="vertical">
+                                    十二月三十日
+                                </li>
+                                <li class="vertical">
+                                    十二月二十三日
+                                </li>
+                                <li class="vertical">
+                                    十一月二十三日
+                                </li>
+                                <li class="vertical">
+                                    九月二十五日
+                                </li>
+                                <li class="vertical">
+                                    八月十日
+                                </li>
+                                <li class="vertical">
+                                    旧暦六月十日
+                                </li>
+                                <li class="vertical">
+                                    六月三十日
+                                </li>
+                            </ul>
+                        </span>
+                        <span class="hov">
+                            <a href="howto-pray.html" class="d-block box h5 text-center">
+                                参拝・御祈祷
+                            </a>
+                        </span>
+                    </div>
+                    <div class="col-md-6"
+                        style="height:100vh;background:url(img/pray.jpg) no-repeat;background-size:cover;background-position:center;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="access">
+            <div class="container-fluid">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-8 p-0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.491787412411!2d140.30971085083547!3d40.93730755948874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9bc73835de5b75%3A0x2a221e38fa412175!2z6auY5bGx56iy6I2356We56S-!5e0!3m2!1sja!2sjp!4v1561447691074!5m2!1sja!2sjp"
+                                width="90%" height="90%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <span class="hov d-none d-md-block">
+                        <a href="access.html" class="col-md-5 p-5 text-center box align-self-center h4 m-0"
+                            style="position:absolute;right:0;">
+                            <img src="img/line_x.gif" class="mr-2" alt="">神社までのご案内
+                        </a>
+                    </span>
+                    <span class="hov pt-5 mt-5 d-block d-md-none mx-auto">
+                        <a href="access.html" class="col-md-5 p-5 text-center box align-self-center h4 m-0">
+                            <img src="img/line_x.gif" class="mr-2" alt="">神社までのご案内
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="footer" class="py-5">
+            <div class="container">
+                <div class="text-center wow fadeIn">
+                    <ul class="p-0 list-unstyled mt-5 d-flex justify-content-center align-items-start">
+                        <li class="vertical mx-3">
+                            <a href="faq.html">
+                                よくあるご質問
+                            </a>
+                        </li>
+                        <li class="vertical mx-3">
+                            <a href="contact.html">
+                                お問い合わせ
+                            </a>
+                        </li>
+                        <li class="vertical mx-3">
+                            <a href="sitemap.html">
+                                当サイトについて
+                            </a>
+                        </li>
+                        <li class="vertical mx-3">
+                            <a href="policy.html">
+                                サイトのご利用について
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Main layout-->
+    <!--Footer-->
+    <footer class="text-center font-small my-4 contents">
+        <p><img src="img/mon_s.png" alt=""></p>
+        <p class="text-center"><img src="img/logo_s.png" alt="" width="150"></p>
+        <p><small>@2019 Takayamainari-jinja Shrine</small></p>
+    </footer>
+    <!--/.Footer-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Fatnav -->
+    <script src="js/nav.min.js"></script>
+    <!-- Page Loading -->
+<!--     <script src="js/pageloading.js"></script> -->
+    <!-- Draw SVG -->
+    <script src="js/jquery.drawsvg.js"></script>
+    <!-- Initializations -->
+    <script type="text/javascript">
+        // Animations initialization
+        new WOW().init();
+    </script>
+    <script>
+        $(function() {
+            $.fatNav();
+        });
+    </script>
+</body>
+
+</html>
