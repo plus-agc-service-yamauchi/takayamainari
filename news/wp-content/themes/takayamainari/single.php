@@ -92,8 +92,8 @@
                 <!-- Content -->
                 <div class="text-center white-text mx-5 wow fadeIn text-white">
                     <div class="row d-flex flex-column justify-content-center align-items-center wow fadeIn">
-                        <p class="d-none d-md-block title-v vertical h2 font-sm-" style="letter-spacing: 0.5em"><?php echo $post->post_title;  ?></p>
-                        <p class="d-block d-md-none title-v vertical h5 font-sm-" style="letter-spacing: 0.5em"><?php echo $post->post_title;  ?></p>
+                        <p class="d-none d-md-block title-v h2 font-sm-" style="letter-spacing: 0.5em;"><?php echo $post->post_title;  ?></p>
+                        <p class="d-block d-md-none title-v h5 font-sm-" style="letter-spacing: 0.5em;"><?php echo $post->post_title;  ?></p>
                         <span style="position:absolute;bottom:0;left:50%;"><img src="<?php bloginfo('template_url');?>/img/line.gif" alt="line"></span>
                     </div>
                 </div>

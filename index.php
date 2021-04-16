@@ -87,7 +87,7 @@
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
                                     <div class="view">
-                                        <video class="video-intro" autoplay loop muted>
+                                        <video class="video-intro"autoplay loop muted>
                                             <source src="video/Reiwa-Takayamainari.mp4" type="video/mp4">
                                         </video>
                                         <div class="mask pattern-3 d-flex justify-content-center align-items-center">
@@ -186,7 +186,7 @@
             <div class="container">
                 <div class="row d-flex flex-column justify-content-center align-items-center wow fadeIn">
                     <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
-                    <p class="vertical mb-3 h5 letter-space">御由緒</p>
+                    <p class="mb-3 h5">御　由　緒</p>
                     <span><img src="img/line.gif" alt="line" class="mb-3"></span>
                 </div>
                 <div class="container">
@@ -251,7 +251,7 @@
                     <div class="col-md-6 pt-5 px-5">
                         <div class="d-flex flex-column justify-content-center align-items-center wow fadeIn">
                             <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
-                            <p class="vertical mb-3 h5 letter-space">主な祭事</p>
+                            <p class="mb-3 h5">主　な　祭　事</p>
                             <span><img src="img/line.gif" alt="line" class="mb-3"></span>
                         </div>
                         <span class="d-none d-lg-block">
