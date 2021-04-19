@@ -45,18 +45,18 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <style type="text/css">
-        html,
-        body,
-        header,
-        .carousel {
-            height: 100%;
-        }
+    html,
+    body,
+    header,
+    .carousel {
+        height: 100%;
+    }
 
-        @media (min-width: 800px) and (max-width: 850px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #1C2331 !important;
-            }
+    @media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #1C2331 !important;
         }
+    }
     </style>
 </head>
 
@@ -68,8 +68,7 @@
         <div class="nav__wrapper bg-white">
             <div class="container-fluid p-0">
                 <div class="row">
-                    <div class="col-md-2 d-flex flex-column align-items-center justify-content-center bars menu p-0"
-                        style="height:100vh;">
+                    <div class="col-md-2 d-flex flex-column align-items-center justify-content-center bars menu p-0" style="height:100vh;">
                         <ul>
                             <li><a href="index.php">トップページ</a></li>
                             <li><a href="map.html">境内案内図</a></li>
@@ -87,7 +86,7 @@
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active">
                                     <div class="view">
-                                        <video class="video-intro"autoplay loop muted>
+                                        <video class="video-intro" autoplay loop muted>
                                             <source src="video/Reiwa-Takayamainari.mp4" type="video/mp4">
                                         </video>
                                         <div class="mask pattern-3 d-flex justify-content-center align-items-center">
@@ -96,15 +95,10 @@
                                                     <strong><img src="img/logo.png" alt="" width="300"></strong>
                                                 </h1>
                                                 <p>Official SNS</p>
-                                                <ul
-                                                    class="list-inline d-flex justify-content-center align-items-center">
-                                                    <li class="list-inline-item"><a
-                                                            href="https://www.facebook.com/takayamainari/"><i
-                                                                class="fab fa-facebook-square fa-2x text-white"></i></a>
+                                                <ul class="list-inline d-flex justify-content-center align-items-center">
+                                                    <li class="list-inline-item"><a href="https://www.facebook.com/takayamainari/"><i class="fab fa-facebook-square fa-2x text-white"></i></a>
                                                     </li>
-                                                    <li class="list-inline-item"><a
-                                                            href="https://www.instagram.com/takayamainari/"><i
-                                                                class="fab fa-instagram fa-2x text-white"></i></a>
+                                                    <li class="list-inline-item"><a href="https://www.instagram.com/takayamainari/"><i class="fab fa-instagram fa-2x text-white"></i></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -121,24 +115,22 @@
     <!-- Navbar -->
     <!-- Header -->
     <!-- Full Page Intro -->
-  <div class="view">
-
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
-      <source src="video/Reiwa-Takayamainari-TITL.mp4" type="video/mp4">
-    </video>
-
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-
-      
-      </div>
-      <!-- Content -->
-
+    <div class="view">
+        <!-- ポスター表示 -->
+        <video poster="img/hero-1.jpg" playsinline muted controls controlslist="nodownload" autoplay preload="metadata" src="video/Reiwa-Takayamainari-TITL.mp4" id="video" />
+        <source src="video/Reiwa-Takayamainari-TITL.mp4" type="video/mp4" />
+        </video>
+        <!-- 元ソース -->
+        <!-- <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay muted loop>
+            <source src="video/Reiwa-Takayamainari-TITL.mp4" type="video/mp4">
+        </video> -->
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        </div>
+        <!-- Content -->
     </div>
     <!-- Mask & flexbox options-->
-
-  </div>
+    </div>
     <!-- Header -->
     <!--Main layout-->
     <main class="contents">
@@ -171,8 +163,7 @@
                 </div>
             </div>
         </section>
-        <div class="jarallax section-parallax h-100 d-flex justify-content-center align-items-center"
-            style="background-image:url('img/map.jpg');background-size:cover;">
+        <div class="jarallax section-parallax h-100 d-flex justify-content-center align-items-center" style="background-image:url('img/map.jpg');background-size:cover;">
             <div class="glass p-3 rounded">
                 <div class="glass px-5 py-3 rounded h1 m-0">
                     <a href="map.html">境内案内図</a>
@@ -191,10 +182,10 @@
                     <div class="mb-3 h5">
                         <table class="table table-borderless">
                             <tr>
-                                <td><?php the_time('Y/m/d'); ?>
+                                <td>
+                                    <?php the_time('Y/m/d'); ?>
                                 </td>
-                                <td><a
-                                        href="<?php the_permalink();?>">
+                                <td><a href="<?php the_permalink();?>">
                                         <?php the_title(); ?>
                                     </a></td>
                             </tr>
@@ -416,8 +407,7 @@
                             </a>
                         </span>
                     </div>
-                    <div class="col-md-6"
-                        style="height:100vh;background:url(img/pray.jpg) no-repeat;background-size:cover;background-position:center;">
+                    <div class="col-md-6" style="height:100vh;background:url(img/pray.jpg) no-repeat;background-size:cover;background-position:center;">
                     </div>
                 </div>
             </div>
@@ -427,14 +417,11 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-md-8 p-0">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.491787412411!2d140.30971085083547!3d40.93730755948874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9bc73835de5b75%3A0x2a221e38fa412175!2z6auY5bGx56iy6I2356We56S-!5e0!3m2!1sja!2sjp!4v1561447691074!5m2!1sja!2sjp"
-                                width="90%" height="90%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.491787412411!2d140.30971085083547!3d40.93730755948874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f9bc73835de5b75%3A0x2a221e38fa412175!2z6auY5bGx56iy6I2356We56S-!5e0!3m2!1sja!2sjp!4v1561447691074!5m2!1sja!2sjp" width="90%" height="90%" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <span class="hov d-none d-md-block">
-                        <a href="access.html" class="col-md-5 p-5 text-center box align-self-center h4 m-0"
-                            style="position:absolute;right:0;">
+                        <a href="access.html" class="col-md-5 p-5 text-center box align-self-center h4 m-0" style="position:absolute;right:0;">
                             <img src="img/line_x.gif" class="mr-2" alt="">神社までのご案内
                         </a>
                     </span>
@@ -495,18 +482,27 @@
     <!-- Fatnav -->
     <script src="js/nav.min.js"></script>
     <!-- Page Loading -->
-<!--     <script src="js/pageloading.js"></script> -->
+    <!--     <script src="js/pageloading.js"></script> -->
     <!-- Draw SVG -->
     <script src="js/jquery.drawsvg.js"></script>
     <!-- Initializations -->
     <script type="text/javascript">
-        // Animations initialization
-        new WOW().init();
+    // Animations initialization
+    new WOW().init();
     </script>
     <script>
-        $(function() {
-            $.fatNav();
-        });
+    $(function() {
+        $.fatNav();
+    });
+    </script>
+    <script>
+    $(window).ready(function() {
+        var video = document.getElementsByTagName('video')[0];
+        video.addEventListener('ended', function() {
+            video.load();
+            video.autoplay = false;
+        }, false);
+    });
     </script>
 </body>
 
