@@ -94,9 +94,9 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="view">
-                                    <!-- <video class="video-intro"autoplay loop muted>
+                                    <video class="video-intro"autoplay loop muted>
                                         <source src="video/Reiwa-Takayamainari_2.mp4" type="video/mp4">
-                                        </video> -->
+                                        </video>
                                         <div class="mask pattern-3 d-flex justify-content-center align-items-center">
                                             <div class="text-center white-text mx-5 wow fadeIn">
                                                 <h1 class="mb-4">
@@ -132,8 +132,8 @@
     <img src="img/hero-1-sp.jpg" alt="" class="img-fluid">
 </div>
 
-<div id="video" class="view d-none d-lg-block">
-    <video src="video/Reiwa-Takayamainari-TITL_3.mp4" autoplay muted onended="location.href='top.html';" poster="img/hero-1-new.jpg"></video>
+<div class="view d-none d-lg-block">
+    <video src="video/Reiwa-Takayamainari-TITL_3.mp4" autoplay muted onended="location.href='top.html';" poster="img/hero-1-new.jpg" width="100%"></video>
 </div>
 
     <!-- Header -->
