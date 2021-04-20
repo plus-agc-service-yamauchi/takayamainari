@@ -94,9 +94,9 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="view">
-                                    <video class="video-intro"autoplay loop muted>
-                                        <source src="video/Reiwa-Takayamainari.mp4" type="video/mp4">
-                                        </video>
+                                    <!-- <video class="video-intro"autoplay loop muted>
+                                        <source src="video/Reiwa-Takayamainari_2.mp4" type="video/mp4">
+                                        </video> -->
                                         <div class="mask pattern-3 d-flex justify-content-center align-items-center">
                                             <div class="text-center white-text mx-5 wow fadeIn">
                                                 <h1 class="mb-4">
@@ -129,80 +129,78 @@
 <!-- Header -->
 <!-- Full Page Intro -->
 <div class="view d-block d-sm-none">
-<img src="img/hero-1-sp.jpg" alt="" class="img-fluid">
+    <img src="img/hero-1-sp.jpg" alt="" class="img-fluid">
 </div>
 
-<div class="view d-none d-lg-block">
-<div class="d-flex justify-content-center align-items-center" id="video" style="position:relative;width:100%">
-</div>
+<div id="video" class="view d-none d-lg-block">
+    <video src="video/Reiwa-Takayamainari-TITL_3.mp4" autoplay muted onended="location.href='top.html';" poster="img/hero-1-new.jpg"></video>
 </div>
 
-
-<!-- Header -->
-<!--Main layout-->
-<main class="contents">
-    <section id="history" class="py-5 my-5">
-        <div class="container">
-            <div class="row d-flex flex-column justify-content-center align-items-center wow fadeIn">
-                <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
-                <p class="mb-3 h5">御　由　緒</p>
-                <span><img src="img/line.gif" alt="line" class="mb-3"></span>
-            </div>
+    <!-- Header -->
+    <!--Main layout-->
+    <main class="contents">
+        <section id="history" class="py-5 my-5">
             <div class="container">
-                <p class="pb-5" style="line-height:1.8em;">
-                    　当社の御創建の年代は詳らかではないが、鎌倉から室町にかけて此のあたりを統治していた豪族安藤氏の創建と伝えられる。<br>
-                    　江戸時代の古地図には、高山の地は三王（山王）坊山と記されており、当社の境内社である三王神社御創建の社伝には、山王坊日吉神社を中心に十三宗寺建ち並ぶ一大霊場があり、安藤氏の祈願所として栄えるも一四四三年（嘉吉三）［または、一四三二年（永享四）］頃に南部勢の焼き討ちにより焼失。この時、山王大神様が黄金の光を放って流れ星のように高山の聖地に降り鎮まれた、と伝えられる。<br>
-                    　稲荷神社創建の社伝には、江戸時代の元禄十四年（一七〇一年）播磨子に赤穂藩主浅野内匠頭長矩の江戸城中での刃傷事件による藩取り潰しの際、赤穂城内に祀っていた稲荷大神の御霊代を藩士の寺坂三五郎が奉戴し、流浪の果て津軽の弘前城下に萬し、その後鯵ヶ沢に移り住み「赤穂屋」と号し醸造業を営み栄える。その子孫がお島に移住するにあたり、この高山の霊地に祀れとのお告げにより遷し祀った、と伝えられる。<br>
-                    　これらを総合して考えると、元々は三王神社が祀られ、その後江戸時代に稲荷神社が創建され、江戸時代の稲荷信仰の隆盛とともに稲荷神社が繁栄し、元々の山王神社が後退したものと考えられる。
-                </p>
-                <div class="row">
-                    <div class="col-md-6 hov">
-                        <a href="gosaishin.html" class="d-block box h5 text-center">
-                            御祭神
-                        </a>
-                    </div>
-                    <div class="col-md-6 hov">
-                        <a href="goshintoku.html" class="d-block box h5 text-center">
-                            御神徳
-                        </a>
+                <div class="row d-flex flex-column justify-content-center align-items-center wow fadeIn">
+                    <span><img src="img/mon_s.png" alt="社紋" class="mb-2"></span>
+                    <p class="mb-3 h5">御　由　緒</p>
+                    <span><img src="img/line.gif" alt="line" class="mb-3"></span>
+                </div>
+                <div class="container">
+                    <p class="pb-5" style="line-height:1.8em;">
+                        　当社の御創建の年代は詳らかではないが、鎌倉から室町にかけて此のあたりを統治していた豪族安藤氏の創建と伝えられる。<br>
+                        　江戸時代の古地図には、高山の地は三王（山王）坊山と記されており、当社の境内社である三王神社御創建の社伝には、山王坊日吉神社を中心に十三宗寺建ち並ぶ一大霊場があり、安藤氏の祈願所として栄えるも一四四三年（嘉吉三）［または、一四三二年（永享四）］頃に南部勢の焼き討ちにより焼失。この時、山王大神様が黄金の光を放って流れ星のように高山の聖地に降り鎮まれた、と伝えられる。<br>
+                        　稲荷神社創建の社伝には、江戸時代の元禄十四年（一七〇一年）播磨子に赤穂藩主浅野内匠頭長矩の江戸城中での刃傷事件による藩取り潰しの際、赤穂城内に祀っていた稲荷大神の御霊代を藩士の寺坂三五郎が奉戴し、流浪の果て津軽の弘前城下に萬し、その後鯵ヶ沢に移り住み「赤穂屋」と号し醸造業を営み栄える。その子孫がお島に移住するにあたり、この高山の霊地に祀れとのお告げにより遷し祀った、と伝えられる。<br>
+                        　これらを総合して考えると、元々は三王神社が祀られ、その後江戸時代に稲荷神社が創建され、江戸時代の稲荷信仰の隆盛とともに稲荷神社が繁栄し、元々の山王神社が後退したものと考えられる。
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6 hov">
+                            <a href="gosaishin.html" class="d-block box h5 text-center">
+                                御祭神
+                            </a>
+                        </div>
+                        <div class="col-md-6 hov">
+                            <a href="goshintoku.html" class="d-block box h5 text-center">
+                                御神徳
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <div class="jarallax section-parallax h-100 d-flex justify-content-center align-items-center"
-    style="background-image:url('img/map.jpg');background-size:cover;">
-    <div class="glass p-3 rounded">
-        <div class="glass px-5 py-3 rounded h1 m-0">
-            <a href="map.html">境内案内図</a>
-        </div>
-    </div>
-</div>
-<section id="news" class="py-5" style="background:#F6F6F6;">
-    <div class="container">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-            <?php
-            $posts = get_posts('numberposts=5');
-            global $post;
-            ?>
-            <?php
-            if ($posts): foreach ($posts as $post): setup_postdata($post); ?>
-                <div class="mb-3 h5">
-                    <table class="table table-borderless">
-                        <tr>
-                            <td><?php the_time('Y/m/d'); ?>
-                        </td>
-                        <td><a
-                            href="<?php the_permalink();?>">
-                            <?php the_title(); ?>
-                        </a></td>
-                    </tr>
-                </table>
+        </section>
+        <div class="jarallax section-parallax h-100 d-flex justify-content-center align-items-center"
+        style="background-image:url('img/map.jpg');background-size:cover;">
+        <div class="glass p-3 rounded">
+            <div class="glass px-5 py-3 rounded h1 m-0">
+                <a href="map.html">境内案内図</a>
             </div>
-        <?php endforeach; endif;
-        ?>
+        </div>
     </div>
-</div>
+    <section id="news" class="py-5" style="background:#F6F6F6;">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <?php
+                $posts = get_posts('numberposts=5');
+                global $post;
+                ?>
+                <?php
+                if ($posts): foreach ($posts as $post): setup_postdata($post); ?>
+                    <div class="mb-3 h5">
+                        <table class="table table-borderless">
+                            <tr>
+                                <td><?php the_time('Y/m/d'); ?>
+                            </td>
+                            <td><a
+                                href="<?php the_permalink();?>">
+                                <?php the_title(); ?>
+                            </a></td>
+                        </tr>
+                    </table>
+                </div>
+            <?php endforeach; endif;
+            ?>
+        </div>
+    </div>
 </section>
 <section id="festival">
     <div class="container-fluid">
@@ -507,29 +505,7 @@
             $.fatNav();
         });
     </script>
-    <script>
-        var target = document.getElementById("video");
-        var video = document.createElement("video");
-        video.src = "video/Reiwa-Takayamainari-TITL_2.mp4";
-        video.autoplay = true;
-
-        var img = document.createElement("img");
-        img.src = "img/hero-1-new.jpg";
-        img.style.width = "100%";
-        img.style.height = "100%"
-        img.style.display = "none";
-
-        video.addEventListener("ended", function() {
-            video.style.display = "none";
-            img.style.display = "block";
-        });
-
-        target.appendChild(video);
-        target.appendChild(img);
-    </script>
-    <script>
-        $("video").addClass("video-intro_2");
-    </script>
+    
 </body>
 
 </html>
