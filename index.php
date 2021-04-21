@@ -133,7 +133,7 @@
 </div>
 
 <div class="view d-none d-lg-block">
-    <video src="video/Reiwa-Takayamainari-TITL_3.mp4" autoplay muted onended="location.href='top.html';" poster="img/hero-1-new.jpg" width="100%"></video>
+    <video src="video/Reiwa-Takayamainari-TITL_3.mp4" autoplay muted onended="location.href='top.html';" width="100%"></video>
 </div>
 
     <!-- Header -->
